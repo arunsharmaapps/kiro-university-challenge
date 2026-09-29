@@ -1,0 +1,8 @@
+{
+  "name": "splitsmart",
+  "version": "1.0.0",
+  "description": "Kiro power bundling the SplitSmart MCP server and money-handling steering.",
+  "power": ".kiro/powers/splitsmart-power/POWER.md",
+  "mcpServers": ".kiro/powers/splitsmart-power/mcp.json",
+  "steering": [".kiro/powers/splitsmart-power/steering/money-rules.md"]
+}

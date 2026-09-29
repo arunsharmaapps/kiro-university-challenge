@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "name": "Guard against floating-point money",
+  "description": "After the agent finishes, re-check that no float currency math was introduced.",
+  "version": "1",
+  "when": { "type": "postToolUse", "toolTypes": ["write"] },
+  "then": { "type": "askAgent", "prompt": "Review the file just written. If it does currency math with floats (e.g. amount * 0.01, parseFloat on money), rewrite it to use integer cents." }
+}

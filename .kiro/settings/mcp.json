@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "splitsmart": {
+      "command": "node",
+      "args": ["mcp-server/server.js"],
+      "disabled": false,
+      "autoApprove": ["compute_balances", "settle_up"]
+    }
+  }
+}

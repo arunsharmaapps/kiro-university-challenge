@@ -1,0 +1,5 @@
+[
+  { "paidBy": "Asha",  "amountCents": 12000, "participants": ["Asha", "Ben", "Chi"] },
+  { "paidBy": "Ben",   "amountCents": 4550,  "participants": ["Asha", "Ben", "Chi"] },
+  { "paidBy": "Chi",   "amountCents": 2000,  "participants": ["Ben", "Chi"] }
+]

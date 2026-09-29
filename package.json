@@ -1,0 +1,14 @@
+{
+  "name": "splitsmart",
+  "version": "1.0.0",
+  "description": "Expense splitting + minimal settle-up, built with Kiro",
+  "type": "module",
+  "bin": { "splitsmart": "src/cli.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node src/cli.js examples/trip.json",
+    "mcp": "node mcp-server/server.js"
+  },
+  "devDependencies": { "fast-check": "^3.23.0" },
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "property-test-writer",
+  "description": "Writes fast-check property tests from the spec's correctness properties.",
+  "prompt": "Read .kiro/specs/expense-splitting/design.md 'Correctness Properties' and write one fast-check property per item in test/, tagged with 'Feature: expense-splitting, Property N'. Run `npm test` afterwards.",
+  "tools": ["read", "write", "shell", "grep", "glob"],
+  "allowedTools": ["read", "grep", "glob"],
+  "mcpServers": {
+    "splitsmart": { "command": "node", "args": ["mcp-server/server.js"] }
+  },
+  "resources": ["file://.kiro/steering/**/*.md"]
+}
